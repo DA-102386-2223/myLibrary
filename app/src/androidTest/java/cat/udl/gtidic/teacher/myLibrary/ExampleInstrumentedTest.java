@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("net.diphone.vl07persistance2", appContext.getPackageName());
+        assertEquals("cat.udl.gtidic.teacher.myLibrary", appContext.getPackageName());
     }
 }
